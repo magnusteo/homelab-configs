@@ -1,0 +1,41 @@
+! ------- Media
+@@||plex.tv^$important
+
+! ------- Productivity Tools
+@@||notion.so^
+@@||miro.so^
+@@||figma.so^
+@@||docker.io^$important
+@@||github.io^$important
+
+
+! ------- Torrent Sites
+@@||myanonamouse.net^$important
+@@||musicbrainz.org^$important
+
+
+!------------------------------------------
+! Modifiers
+!------------------------------------------
+! $script: Applies to JavaScript files.
+! $image: Applies to image files.
+! $stylesheet: Applies to CSS stylesheets.
+! $object: Applies to content handled by browser plugins (Flash, Java, etc.).
+! $subdocument (or $frame): Applies to embedded pages (iframes).
+! $xmlhttprequest (or $xhr): Applies to requests made via XMLHttpRequest or Fetch API (often used for dynamic content, AJAX).
+! $websocket: Applies to WebSocket connections.
+! $webrtc: Applies to WebRTC connections.
+! $font: Applies to font files.
+! $media: Applies to audio and video files.
+! $popup: Applies to pages opened in new tabs or windows.
+! $other: A catch-all for any request type not covered by other specific types.
+! $domain=domain1|domain2|~domain3:
+! $third-party: Applies the rule only if the request is to a different domain than the main page (a "third-party" request).
+! $~third-party: Applies the rule only if the request is to the same domain as the main page (a "first-party" request).
+! $strict-third-party / $strict-first-party: More advanced versions that consider the entire chain of requests. AdGuard Home supports these.
+
+! $important: As discussed, increases the rule's priority to override others.
+! $badfilter: Used in filter lists to disable another rule. If a general rule causes an issue, a list maintainer might add a $badfilter rule to disable it. You'd rarely write this yourself unless you're trying to debug.
+! $denyallow=domain1|domain2: This is a more complex modifier that functions as a "conditional allow." It means the rule will block the resource unless it is loaded from one of the specified domains. AdGuard Home has some limitations on its usage (often needs $domain alongside it).
+! $dnsrewrite=IP_ADDRESS or $dnsrewrite=NXDOMAIN or $dnsrewrite=REFUSED or $dnsrewrite=NOERROR:
+! $client=client1|client2|~client3: Specific to AdGuard Home. Allows you to apply a rule only to specific clients (by IP address or name) or exclude certain clients.
