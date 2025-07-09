@@ -12,6 +12,7 @@
 ! ------- Torrent Sites
 @@||myanonamouse.net^$important
 @@||musicbrainz.org^$important
+@@||proton.me^$important
 
 
 !------------------------------------------
