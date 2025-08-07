@@ -15,6 +15,10 @@
 @@||proton.me^$important
 
 
+! ------- Work
+@@||www.dynamicyield.com^
+@@||marketing.dynamicyield.com^
+
 !------------------------------------------
 ! Modifiers
 !------------------------------------------
