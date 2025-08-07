@@ -16,7 +16,8 @@
 
 
 ! ------- Work
-@@||dynamicyield.com^$important
+@@||www.dynamicyield.com^
+@@||marketing.dynamicyield.com^
 
 !------------------------------------------
 ! Modifiers
