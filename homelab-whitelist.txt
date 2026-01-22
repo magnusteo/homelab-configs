@@ -8,16 +8,15 @@
 @@||docker.io^$important
 @@||github.io^$important
 
+! ------- DNS
+@@||ts.net^$important
+@@||tailscale.com^$important
+@@||tailscale.net^$important
 
 ! ------- Torrent Sites
 @@||myanonamouse.net^$important
 @@||musicbrainz.org^$important
-@@||proton.me^$important
 
-
-! ------- Work
-@@||www.dynamicyield.com^
-@@||marketing.dynamicyield.com^
 
 !------------------------------------------
 ! Modifiers
